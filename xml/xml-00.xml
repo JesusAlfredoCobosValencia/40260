@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE direccion SYSTEM "">
+<direccion>
+    <nombreCompleto>
+        <nombre> Rafael</nombre>
+        <apellidos> R C</apellidos>
+    </nombreCompleto>
+    <correo>cobosj454@gmailcom</correo>
+    <telefono> 911911911</telefono>
+    <cumple> 
+        <dia>1</dia>
+        <mes>1</mes>
+        <anio>1</anio> 
+    </cumple>    
+ </direccion>

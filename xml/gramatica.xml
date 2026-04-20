@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE lavadora SYSTEM "gramatica.dtd">
+
+<lavadora>
+
+    <llenar>agua</llenar>
+
+    <condicion estado="ropa_sucia">
+        <lavar>10</lavar>
+    </condicion>
+
+    <ciclo repeticiones="2">
+        <enjuagar/>
+    </ciclo>
+
+    <secar/>
+    <vaciar/>
+
+</lavadora>
