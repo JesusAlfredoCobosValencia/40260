@@ -1,13 +1,11 @@
-<!ELEMENT lavadora (llenar, condicion?, ciclo?, secar, vaciar)>
+<!ELEMENT lavadora (secuencia)>
+<!ELEMENT secuencia (llenarAgua, lavar, repetir, centrifugar)>
 
-<!ELEMENT llenar (#PCDATA)>
-<!ELEMENT lavar (#PCDATA)>
+<!ELEMENT llenarAgua EMPTY>
+<!ELEMENT lavar EMPTY>
+
+<!ELEMENT repetir (enjuagar, enjuagar)>
+<!ATTLIST repetir veces CDATA #REQUIRED>
+
 <!ELEMENT enjuagar EMPTY>
-<!ELEMENT secar EMPTY>
-<!ELEMENT vaciar EMPTY>
-
-<!ELEMENT condicion (lavar)>
-<!ATTLIST condicion estado CDATA #REQUIRED>
-
-<!ELEMENT ciclo (enjuagar)>
-<!ATTLIST ciclo repeticiones CDATA #REQUIRED>
+<!ELEMENT centrifugar EMPTY>
