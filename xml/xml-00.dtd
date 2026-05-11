@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+<?xml version="1.0" encodign="UTF-8"?>
+<!ELEMENT direccion (nombrecompleto, correo, telefono, cumple)>
+<!ELEMENT nombrecompleto (nombre, apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT cumple (dia, mes, anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+=======
 <?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT direccion (nombreCompleto, correo, teleono, cumple)>
 <!ELEMENT nombreCompleto(nombre, apellidos)>
@@ -9,3 +22,4 @@
 <!ELEMENT dia(#PCDATA)>
 <!ELEMENT mes(#PCDATA)>
 <!ELEMENT aniA(#PCDATA)>
+>>>>>>> cc58d2140e262f9a01a402f0b05aa9f661de3109

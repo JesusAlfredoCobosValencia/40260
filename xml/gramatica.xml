@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lavadora SYSTEM "gramatica.dtd">
+<<<<<<< HEAD
+=======
 
+>>>>>>> cc58d2140e262f9a01a402f0b05aa9f661de3109
 <lavadora>
     <secuencia>
         <llenarAgua/>
         <lavar/>
         <repetir veces="2">
             <enjuagar/>
+<<<<<<< HEAD
+=======
             <enjuagar/>
+>>>>>>> cc58d2140e262f9a01a402f0b05aa9f661de3109
         </repetir>
         <centrifugar/>
     </secuencia>

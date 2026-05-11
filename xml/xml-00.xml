@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+<?xml version="1.0" encodign="UFT-8"?>
+<!DOCTYPE direccion SYSTEM "xml-00.dtd">
+<direccion>
+    <nombrecompleto>
+        <nombre>Rafael</nombre>
+        <apellidos>R C</apellidos>
+    </nombrecompleto>
+    <correo>rrojano@uv.mx</correo>
+    <telefono>1919139393</telefono>
+    <cumple>
+        <dia>1</dia>
+        <mes>1</mes>
+        <anio>1</anio>
+    </cumple>
+</direccion>
+=======
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE direccion SYSTEM "">
 <direccion>
@@ -13,3 +30,4 @@
         <anio>1</anio> 
     </cumple>    
  </direccion>
+>>>>>>> cc58d2140e262f9a01a402f0b05aa9f661de3109
